@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试WebStorage</title>
+    <script charset="UTF-8" src="./js/SessionStorage.js"></script>
+</head>
+<body>
+    <p id = "msg"></p>
+    <input type = "text" id = "input" />
+    <input type = "button" value = "保存" onclick="saveStorage('input')" />
+    <input type = "button" value = "读取SessionStorage" onclick="loadStorage('msg')" />
+    <input type = "button" value = "读取LocalStorage" onclick="loadLocalStorage('msg')" />
+    <input type = "button" value = "读取Cookie" onclick="loadCookie('msg')" />
+</body>
+</html>
